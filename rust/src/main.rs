@@ -83,3 +83,5 @@ async fn delete_todo(
         HttpResponse::NotFound().body("Todo item not found")
     }
 }
+
+#[actix_web::main]
